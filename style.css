@@ -1,15 +1,61 @@
 header{
-    text-align: center;
+    text-align: left;
+    background-color: #eee;
+    padding: 10px;
+    border-bottom: 1px;
+    border-bottom-color: silver;
+    border-width: 1px;
+    border-style: solid;
 }
 
+h1, h2, h3{
+    color: crimson;
+    font-family: sans-serif;;
 
+}
 
+h2{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: crimson;
 
+}
 
+body{
+    margin: 0px;
 
+}
 
+.overview{
+    font-style: italic;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    
+}
 
+img{
+   padding: 5px; 
+}
 
+main{
+    padding: 10px;
+
+}
+
+footer{
+    background-color: #eee;
+    padding: 10px;
+    border-top-color: silver;
+    border-top-width: 1px;
+    border-top-style: solid;
+
+}
+
+footer h3{
+    margin-top: 0px;
+}
 
 
 
