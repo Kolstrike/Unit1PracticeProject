@@ -1,17 +1,8 @@
 body{
-    margin: 0;
-}
-
-header{
-    background-color: #f6e4f6;
-    padding: 1em;
+    margin-top: 0px;
     margin-bottom: 10px;
-    box-shadow: 0px 2px 3px #732673;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .parent-container-row{
@@ -33,10 +24,11 @@ header a {
 }
 
 section {
- background-color: #d1f0de;
- padding: 1em;
- margin-bottom: 10px;
- box-shadow: 0px 2px 3px #2e8b57;
+background-color: #d1f0de;
+padding: 1em;
+margin-bottom: 10px;
+box-shadow: 0px 2px 3px #2e8b57;
+width: 35%;
 }
 
 h2 {
@@ -44,12 +36,62 @@ h2 {
 }
 
 .words p {
- border: 2px solid #2e8b57;
+ border: 3px solid #2e8b57;
  background-color: white;
- padding: 1em;
+ padding-top: 0em;
+ padding-bottom: 0em;
+ padding-left: 1em;
+ padding-right: 1em;
  margin: 2px;
+ font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.nouns{
+    
+}
+.adjectives{
+    
 }
 
+ .words{
+    display: flex;
+    flex-direction: row;
+    
+} 
+
+@media screen and (min-width: 480px) {
+
+    header{
+        background-color: #f6e4f6;
+        padding: 1em;
+        margin-bottom: 10px;
+        box-shadow: 0px 2px 3px #732673;
+        align-items: center;
+    }
+    .nouns {
+        justify-content: flex-start;
+        
+    }
+    .adjectives-container {
+        margin-left: auto;  
+       
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .nouns {
+        justify-content: flex-start;
+
+    }
+
+    }
+    .adjectives-container {
+        margin-left: auto;
+    }
 
 
 
@@ -62,6 +104,10 @@ h2 {
 
 
 
+
+
+
+    
 
 
 
